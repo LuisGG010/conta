@@ -1,0 +1,82 @@
+<html>
+
+<head>
+	   <meta charset="utf-8">
+	<title>Terminos y Condiciones</title>
+    <link rel="stylesheet" type="text/css" href="design.css">
+<script>
+        
+        function closemenu() {
+        
+        var menu= document.getElementById("menu");
+        menu.style.margin="0 -50%";
+        }
+        
+    function openmenu(){
+    
+      var menu= document.getElementById("menu");
+        menu.style.margin="0 15% 0 0";
+    }
+        
+        function mostrar(){
+        
+            var blok= document.getElementById("id1"); 
+            blok.style.display="block"; blok.style.margin="5% 2% 0 2%";
+            
+            var blod= document.getElementById("l3"); 
+            
+            if(blod.onclick){
+               blod.style.content=" ◄";
+               }
+        }    
+        </script>
+        
+    </head>
+    <body>
+        
+        <header class="navegar">
+        <div class="hamburger">
+       <a href="javascript:void(0)" onclick="openmenu()"> <svg width="30" height="30" id="icoOpen">
+        <path d="M0,5 30,5" stroke="#f1f1f1" stroke-width="2"/>
+        <path d="M0,14 30,14" stroke="#f1f1f1" stroke-width="2"/>
+        <path d="M0,23 30,23" stroke="#f1f1f1" stroke-width="2"/>
+        </svg>
+           </a>
+        </div>
+        </header>
+                <nav class="menu" id="menu">
+                     <ul> 
+                         
+                     <a href="javascript:void(0)"><img onclick="closemenu()" width="30%" src="btndatras.png" style="float:right"></a><li>  <img class="l2" id="stuff" src="IconoC.png" width="120" height="100"/></li> 
+                     <br>
+                        <img>
+                     <li><a class="l2" href="Index.html">Inicio</a></li> <br>
+                     <li><a class="l2" href="calculadora.html">Calculadora</a></li> <br>
+                     <li><a class="l2" href="formulas.html">Formulas</a></li><br>
+                     <li><a class="l2" id="tyc" href="TyC.html">Términos Condiciones</a></li> <br>
+                     <li><a class="l2" href="teoria.html">Teoría</a></li> <br>
+                        
+                     <li class="id">   
+                         
+                    <a class="l3" id="l3" href="javascript:void(0)" onclick="mostrar()">Idiomas</a>
+                        <div class="id1" id="id1">
+                         <a href="TyC.html">Español</a>
+                         <a href="TyC_I.html">Ingles</a>
+                        </div>
+                         
+                     </li>
+                        
+                            
+                    </ul>
+                </nav>
+
+             <br>
+
+	<center>
+	<div class="txttc">
+	<h1 class="h1">Términos y Condiciones de Uso</h1><br>
+    <img src="tyc.png" height="150px" width="600px"><br><br>
+	<p>Licencia Limitada: Usted puede acceder y ver el contenido del Sitio Web desde su computadora o desde cualquier otro aparato y, a menos de que se indique de otra manera en estos Términos y Condiciones o en el sitio web, sacar copias o impresiones individuales del contenido del Sitio Web para su uso personal, interno únicamente. El uso del Sitio Web y de servicios que se ofrecen en o a través del Sitio Web, son solo para su uso personal, no comercial.<br><br>Uso Prohibido: Cualquier distribución publicación o explotación comercial o promocional del sitio web, o de cualquiera de los contenidos, códigos, datos o materiales en el sitio web, está estrictamente prohibido, a menos de que usted haya recibido el previo permiso expreso por escrito del personal autorizado de uso prohibido.<br><br>Cualquier distribución publicación o explotación comercial o promocional del sitio web, o de cualquiera de las anteriores códigos datos o materiales en el sitio web, está estrictamente prohibido a menos de que usted haya tenido el permiso del personal autorizado de Con. E. o de algún otro poseedor de derechos aplicables.<br><br>A no ser como esta expresamente permitido en el presente con trato, usted no puede descargar, informar, exponer, publicar, copiar, reproducir, distribuir, transmitir, modificar, ejecutar, difundir, transferir, crear trabajos derivados, vender o de cualquier otra manera explotar cualquiera de los contenidos, códigos, datos o materiales en o disponibles a través del sitio web.</p>
+	</div>
+</center></body>
+</html>
