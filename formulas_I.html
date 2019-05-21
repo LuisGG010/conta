@@ -1,0 +1,115 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="desing.css">
+<meta lang="es">
+
+<script>
+    
+//aqui declaramos los identificadores de las etiquetas y asignarles una variable para operar con ellas
+
+function sumar(){
+a=document.f1.uno.value;
+b=document.f1.dos.value;
+c=parseFloat(a)+parseFloat(b);
+document.f1.total1.value=c;
+document.f1.tres.value=c;
+}
+
+function Cpro(){
+ggf=document.f1.cuatro.value;
+gi=document.f1.cinco.value;
+gc=parseFloat(ggf)+parseFloat(gi)+c;
+document.f1.total2.value=gc;
+document.f1.catorce.value=gc;
+document.f1.doce.value=gc;
+}
+
+function Cind(){
+mp1=document.f1.seis.value;
+moi=document.f1.siete.value;
+gffa=document.f1.ocho.value;
+moc=parseFloat(mp1)+parseFloat(moi)+parseFloat(gffa);
+document.f1.total3.value=moc;
+}
+
+function Codi(){
+gv=document.f1.diez.value;
+ga=document.f1.once.value;
+vg=parseFloat(gv)+parseFloat(ga);
+document.f1.total4.value=vg;
+document.f1.trece.value=vg;
+}  
+
+function Cto(){
+    shape= vg+gc;
+    document.f1.total5.value=shape;
+}
+    
+function Cu(){
+un=document.f1.quince.value;
+sd=parseFloat(un);
+Cuc=gc/sd;
+document.f1.total6.value=Cuc;
+} 
+    
+</script>
+</head>
+
+
+<body>
+<form name="f1">
+<nav><a id="volver" href="Inicio_I.html">Return</a></nav>
+<center>
+<div class="cprin">
+    
+<h3>Cousin Cost</h3>
+ 
+ <div><input type="text" maxlength="8" placeholder="Indirect Raw Material" name="uno" class="box1"></div><br>
+ <input type="text" minlength="10" placeholder="Direct Labor" name="dos">
+<br><br><input type="button" value="Calculate" onclick="sumar()" > <input type="text" disabled placeholder="Result" name="total1">
+</div><br><br>
+    
+
+<h3>Production Cost:</h3>
+
+<div><div><input type="text" maxlength="10" placeholder="Cousin Cost" name="tres"></div>
+<br><div><input type="text" maxlength="10" placeholder="Direct Gerneral Manufacturing Expenses" name="cuatro"></div>
+<br><div> <input type="text" maxlength="10" placeholder="Indirects Costs" name="cinco"></div> <br> 
+<input type="button" value="Calculate" onclick="Cpro()"> <input type="text" disabled placeholder="Result" name="total2"></div>
+    <span></span>
+ 
+<br><br><h3>Costo indirecto:</h3> <input type="text" maxlength="10" placeholder="Indirect Raw Material" name="seis">
+<br> <br><input type="text" maxlength="10" placeholder="Indirect Labor" name="siete"> 
+<br> <br> <input type="text" maxlength="10" placeholder="Indirect Manufacturing Expenses" name="ocho">
+<br> <br> <input type="button" value="Calculate" onclick="Cind()">  <input type="text" placeholder="Result" disabled name="total3">
+<br> <br> <br><span></span>
+
+
+<h3>Distribution Cost:</h3>
+<div>
+<div> <input type="text" maxlength="10" placeholder="Selling Expenses" name="diez"></div>
+<br> <input type="text" maxlength="10" placeholder="Administration Expenses" name="once"> 
+<br> <br><input type="button" value="Calculate" onclick="Codi()"> <input type="text" placeholder="Result" disabled name="total4">
+<br> <br> 
+</div> <br> <br><span></span>
+
+
+<h3>Total Cost of Operation:</h3>
+ <input type="text" maxlength="10" placeholder="Production Cost" name="doce">
+<br> <br> <input type="text" maxlength="10" placeholder="Distribution Cost" name="trece"> 
+<br> <br><input type="button" value="Calculate" onclick="Cto()"> <input type="text" disabled placeholder="Result" name="total5">
+<br><br><br><span></span>
+
+  <div><h3>Total Cost of Production:</h3> <input type="text" maxlength="10" placeholder="costo de producción" name="catorce">  
+<br><br><input type="text" maxlength="10" placeholder="unidades producidas" name="quince"> <br> <br>
+<input type="button" value="Calculate" onclick="Cu()"> <input type="text" disabled placeholder="Result" name="total6"></div>
+<span></span>
+  </center> 
+</form>
+   
+</body>
+
+
+
+</html>

@@ -1,0 +1,90 @@
+*{
+margin: 0;
+}
+
+h1{
+padding-top: 12px;
+height: 40px;
+background-color: #2F4F4F;
+background-image: radial-gradient(80px, #	, #800000);
+color: #fff;
+text-align: center;
+font-family:serif;
+font-style: italic;
+font-size: 150%;
+text-decoration: underline;
+}
+
+
+.content{
+background-color: #303030;
+padding: 1%;
+color: white;
+}
+
+
+.p1{
+font-family: serif;
+font-style: normal;
+font-size: 120%;
+margin: 30px;
+}
+
+.bloq{
+font-family: serif;
+font-style: normal;
+font-size: 120%;
+margin: 30px;  
+}
+
+[class="li1"]{
+text-decoration: none;
+font-style: italic;
+font-weight: 600;
+font-size: 130%;
+text-align: center;
+list-style-type: none;
+}
+
+[class="li2"]{
+font-family: serif;
+font-style: italic;
+font-size: 120%;
+margin: 30px;  
+}
+
+div>h2{
+text-decoration: none;
+font-style: italic;
+font-weight: 600;
+font-size: 130%;
+text-align: center;
+list-style-type: none;
+
+}
+
+[class="p3"], [class="p4"], [class="p5"], [class="p6"], [class="p7"],
+ [class="p8"],[class="p9"]{
+text-align: center;
+font-family: serif;
+font-style: italic;
+font-size: 120%;
+margin: 30px;  
+}
+
+.button{
+font-style: italic;
+font-size: 20px;
+color: #fff;
+text-decoration: none;
+height: 40px;
+width: 150px;
+background-color:#2E8B57;
+position:absolute;
+left: 25px;
+}
+
+[class="button"]:hover{
+background-color:#5F9EA0;
+}
+
