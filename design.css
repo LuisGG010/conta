@@ -1,0 +1,150 @@
+@media screen and (max-width:1300px){
+    
+}
+
+
+*{
+margin: 0;
+font-family: sans-serif;
+}
+
+body{
+background-color: gray;
+color: black;
+}
+
+.navegar{
+background-color: #205140;
+padding: 2%;
+}
+
+
+
+
+
+ nav ul {
+font-family:sans-serif;    
+list-style: none;
+}
+
+
+.menu{
+float: left;
+width:-15%;
+height: 1000px;
+text-align: left;
+margin: 0 -80% ;
+position:absolute;
+background: #000;
+overflow: visible;
+z-index: 1;
+transition: 0.8s;
+}
+
+
+
+/* codigo para letras del menu */
+
+.l2:hover{
+
+}
+ nav ul li a{
+text-decoration: none;
+color: white;
+font-size: 105%;
+text-align: justify;
+margin-left: 2%;
+}
+
+/* aqui le doy una id al referenciador terminos y condiciones y le doy margin a su texto */
+#tyc{
+text-align: justify;
+}
+
+#stuff{
+margin-left: -10%;
+}
+
+.l2{
+margin-top: 7%;
+}
+
+
+.exam{
+background-color: darkgray;
+border-radius: 60px;
+padding: 10px 0px 10px 0px;
+position: absolute;
+right: 150px;
+left: 150px;
+}
+
+/*---Contenido-----------------------------------------------------*/
+
+.expla{
+background-color: floralwhite;
+border-radius: 8%;
+padding: 2%;
+}
+
+.he1{
+color: darkblue;
+}
+
+
+
+
+.contenedorcom{
+display: flex;
+flex-direction: column;
+}
+
+.im{
+width: 40%;
+max-width: 30%;
+height: auto;
+}
+
+.k{
+flex-wrap: nowrap;
+background-color: #09590C;
+border-radius: 10%;
+color: white;
+float: right;
+width: 40%;
+min-width: 10%;
+max-width: 40%;
+height: auto;
+padding: 2%;
+}
+
+
+
+
+/*---SubMenu----------------------------------------------------------------------------------------------------------------*/
+
+.l3::after{
+content: " ▼";
+font-size: 12px;
+border: solid right 1px dimgray;
+transition: 2s;
+}
+
+.id1{
+display: none;
+position: absolute;
+box-shadow: 0px 8px 15px 0px rgba(0,0,0,0,2);
+z-index: 1;
+margin: -25% 2% 0 2%;
+transition: all 3s;
+}
+
+.id1 a{
+color: white;
+padding: 40% 6% 1% 0%;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+
