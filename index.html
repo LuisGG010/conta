@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pagina Inicio</title>
+        <link rel="stylesheet" type="text/css" href="design.css">
+        
+        
+        <script>
+        
+        function closemenu() {
+        
+        var menu= document.getElementById("menu");
+        menu.style.margin="0 -80%";
+        }
+        
+    function openmenu(){
+    
+      var menu= document.getElementById("menu");
+        menu.style.margin="0 15% 0 0";
+    }
+        
+        function mostrar(){
+        
+            var blok= document.getElementById("id1"); 
+            blok.style.display="block"; blok.style.margin="5% 2% 0 2%";
+            
+            var blod= document.getElementById("l3"); 
+            
+            if(blod.onclick){
+               blod.style.content=" ◄";
+               }
+        }    
+        </script>
+        <meta name="viewport"  content="initial-scale=1, width=device-width, user-scalable="yes/zoom"">
+    </head>
+    <body>
+        
+        <header class="navegar">
+        <div class="hamburger">
+       <a href="javascript:void(0)" onclick="openmenu()"> <svg width="30" height="30" id="icoOpen">
+        <path d="M0,5 30,5" stroke="#f1f1f1" stroke-width="2"/>
+        <path d="M0,14 30,14" stroke="#f1f1f1" stroke-width="2"/>
+        <path d="M0,23 30,23" stroke="#f1f1f1" stroke-width="2"/>
+        </svg>
+           </a>
+        </div>
+        </header>
+                <nav class="menu" id="menu">
+                     <ul> 
+                         
+                     <a href="javascript:void(0)"><img onclick="closemenu()" width="30%" src="btndatras.png" style="float:right"></a><li><img class="l2" id="stuff" src="IconoC.png" width="120" height="100"></li> 
+                     <br>
+                        <img>
+                     <li><a class="l2" href="index.html">Inicio</a></li> <br>
+                     <li><a class="l2" href="calculadora.html">Calculadora</a></li> <br>
+                     <li><a class="l2" href="formulas.html">Formulas</a></li><br>
+                     <li><a class="l2" id="tyc" href="tyc.html">Términos Condiciones</a></li> <br>
+                     <li><a class="l2" href="teoria.html">Teoría</a></li> <br>
+                        
+                     <li class="id">   
+                         
+                    <a class="l3" id="l3" href="javascript:void(0)" onclick="mostrar()">Idiomas</a>
+                        <div class="id1" id="id1">
+                         <a href="index.html">Español</a>
+                         <a href="inicio_I.html">Ingles</a>
+                        </div>
+                         
+                     </li>
+                        
+                            
+                    </ul>
+                </nav>
+
+             <br>
+        
+        <div class="contenedorcom">
+            <h1>Bienvenidos a Cont. E. (Contabilidad Electrónica)</h1>
+            <p>Bienvenido, a nuestra página web donde podrás mejorar tus habilidades como contador.
+            En esta página web podrás calcular los problemas matemáticos de contabilidad de 4to en nivel meda-superior, para ello te mostraremos como es todo su procedimiento para obtener todos los métodos de costos.</p><br>
+                <img class="im" src="contab.png"><br>
+                <div class="k">
+                    <ul>
+                     <li>Costo Primo</li><br>
+                     <li>Costo de Producción</li><br>
+                     <li>Costos Indirectos</li><br>
+                     <li>Costo de Distribución</li><br>
+                     <li>Costo total de Operación</li><br>
+                     <li>Costo unitario de Producción</li>
+                    </ul>
+        </div>    
+            <br>
+            
+                <p>La cual se administrara con ayuda de la calculadora que tiene implementada esta página web.
+                Estos son las fórmulas de cada Costo que se implementaran para obtener los resultados y ayudar de una manera más sencilla a calcular los   distintos costos.
+                </p><br>
+                <div class="expla">
+                <h4 class="he"><a class="he1">Costo Primo:</a> Materia Prima Indirecta + Mano de Obra Directa</h4>
+                <h4 class="he"><a class="he1">Costo de Producción:</a> Costo Primo + Gastos Generales de Fabricación Directos + Costos Indirectos</h4>
+                <h4 class="he"><a class="he1">Costos Indirectos:</a> Materia Prima Indirecta + Mano de Obra Indirecta + Gastos de Fabricación Indirectos</h4>
+                <h4 class="he"><a class="he1">Costo de Distribución:</a> Gastos de Venta + Gastos de Administración</h4>
+                <h4 class="he"><a class="he1">Costo Total de Operación:</a> Costo de producción + Costo de Distribución</h4>
+                <h4 class="he"><a class="he1">Costo Unitario de Producción:</a> Costo de Producción / Unidades Producidas</h4>
+        </div></div>
+        </body>
+</html>
