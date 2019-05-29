@@ -77,9 +77,10 @@ padding: 10px 0px 10px 0px;
 position: absolute;
 right: 150px;
 left: 150px;
+text-align: justify;
 }
 
-/*---Contenido-----------------------------------------------------*/
+/*---Contenido-----------------------------------------------------------*/
 
 .expla{
 background-color: floralwhite;
@@ -98,6 +99,7 @@ color: darkblue;
 .contenedorcom{
 display: flex;
 flex-direction: column;
+text-align: justify;
 }
 
 .im{
